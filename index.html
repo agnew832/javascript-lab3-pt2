@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <!-- form container -->
+      <div class="container">
+        
+        <!--form elements  -->
+        <form>
+          <h1>My Contacts</h1>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" />
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" />
+          <label for="number">Phone </label>
+          <input type="text" name="number" id="number" />
+          <label for="relation">Relation</label>
+          <!-- <input type="text" name="relation" id="relation" /> -->
+          <select id="select" name="select">
+            <option value="family">Family</option>
+            <option value="friend">Friends</option>
+            <option value="coworker">Coworkers</option>
+            <option value="business">Business Contacts</option>
+          <!-- <label for="add"></label> -->
+          <input type="button" value="Add" name="add" id="add" />
+        </form>
+      </div>
+      <!-- container for contact cards -->
+      <div class="contacts-container"></div>
+    </main>
+    <!-- <i class="fas fa-trash"></i> -->
+    <script
+      src="https://kit.fontawesome.com/9f3170d21d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
